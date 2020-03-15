@@ -16,6 +16,8 @@ public class HelloController {
 	public String Hello() throws Exception {
 		
 		System.out.println(mBoardMapper.boardCount()); // <<<<TEST
+		System.out.println(mBoardMapper.boardCount()); // <<<<TEST
+		System.out.println(mBoardMapper.boardCount()); // <<<<TEST
 
 		return "hello";
 	}	
