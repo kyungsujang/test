@@ -27,6 +27,7 @@ public class Demo3Application {
         
         sessionFactory.setDataSource(dataSource);
         System.out.println("노트북 로직 수정"); // <<<<TEST
+        System.out.println("테탑 로직 수정"); // <<<<TEST
         return sessionFactory.getObject();
         
     }
