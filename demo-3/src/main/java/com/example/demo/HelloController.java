@@ -18,7 +18,8 @@ public class HelloController {
 		System.out.println("11111111111111111111111"); // <<<<TEST
 		System.out.println(mBoardMapper.boardCount()); // <<<<TEST
 		System.out.println("11111111111111111111111"); // <<<<TEST
-
+		System.out.println("노트북 다시 수정합니다."); // <<<<TEST
+		
 		return "hello";
 	}	
 }
