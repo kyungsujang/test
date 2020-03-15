@@ -21,7 +21,10 @@ public class HelloController {
 		System.out.println("노트북 다시 수정합니다."); // <<<<TEST
 		System.out.println("노트북 다시 수정합니다2."); // <<<<TEST
 		System.out.println("덴탑 다시 수정합니다."); // <<<<TEST
+<<<<<<< HEAD
 		System.out.println("노트북 다시 수정합니다3."); // <<<<TEST
+=======
+>>>>>>> refs/remotes/origin/master
 		
 		return "hello";
 	}	
