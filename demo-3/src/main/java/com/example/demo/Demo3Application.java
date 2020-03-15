@@ -26,7 +26,8 @@ public class Demo3Application {
         SqlSessionFactoryBean sessionFactory = new SqlSessionFactoryBean();
         
         sessionFactory.setDataSource(dataSource);
-        System.out.println("노트북 로직 수정"); // <<<<TEST
+        System.out.println("노트북 로직 수정"); // <<<<TEST        
+        System.out.println("노트북 로직 수정2"); // <<<<TEST
         System.out.println("테탑 로직 수정"); // <<<<TEST
         return sessionFactory.getObject();
         
