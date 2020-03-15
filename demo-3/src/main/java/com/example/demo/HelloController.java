@@ -15,9 +15,9 @@ public class HelloController {
 	@RequestMapping("/aaa")
 	public String Hello() throws Exception {
 		
+		System.out.println("11111111111111111111111"); // <<<<TEST
 		System.out.println(mBoardMapper.boardCount()); // <<<<TEST
-		System.out.println(mBoardMapper.boardCount()); // <<<<TEST
-		System.out.println(mBoardMapper.boardCount()); // <<<<TEST
+		System.out.println("11111111111111111111111"); // <<<<TEST
 
 		return "hello";
 	}	
