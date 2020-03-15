@@ -24,7 +24,7 @@ public class HelloController {
 
 		System.out.println("노트북 다시 수정합니다3."); // <<<<TEST
 		System.out.println("덴탑 다시 수정합니다.2"); // <<<<TEST
-		
+		System.out.println("노트북 다시 수정합니다4."); // <<<<TES
 		return "hello";
 	}	
 }
